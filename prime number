@@ -1,0 +1,16 @@
+#include<iostream>
+using namespace std;
+int main(){
+int n;
+cout<<"check the number where it is prime or not";
+cin>>n;
+for(int i=2;i<n;i++){
+    if(n%i==0){
+        cout<<"not prime";
+        break;
+    }
+     cout<<"prime";
+
+}
+
+}
